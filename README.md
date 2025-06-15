@@ -177,4 +177,4 @@ YOLOv8n Pose → 姿態估計 → 特徵提取 → 行為分析 → 警報觸發
 
 ---
 
-*README_zh.md 由 Claude Sonnet 4 協助撰寫*
+*README.md 由 Claude Sonnet 4 協助撰寫*
