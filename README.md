@@ -39,17 +39,6 @@
 ```bash
 # 安裝必要套件
 pip install ultralytics opencv-python numpy pygame
-
-# 或使用 requirements.txt
-pip install -r requirements.txt
-```
-
-### Requirements.txt
-```txt
-ultralytics>=8.0.0
-opencv-python>=4.5.0
-numpy>=1.21.0
-pygame>=2.1.0
 ```
 
 ---
@@ -64,7 +53,7 @@ cd fight-detection-system
 
 ### 2. 安裝依賴
 ```bash
-pip install -r requirements.txt
+pip install ultralytics opencv-python numpy pygame
 ```
 
 ### 3. 執行系統
