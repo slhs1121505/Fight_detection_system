@@ -7,8 +7,8 @@
 
 ## 📋 Project Information
 - **School**: Taipei Municipal Shilin High School of Commerce
-- **Type**: Vocational School Capstone Project
-- **Technology**: Computer Vision + Deep Learning
+- **Project Type**: Vocational Senior High School Capstone Project
+- **Technologies Used**: Computer Vision and Deep Learning
 - **Programming Language**: Python
 
 ---
@@ -16,17 +16,17 @@
 ## 🎯 System Features
 
 ### Core Functions
-- ✅ **Real-time Human Pose Detection** - Using YOLOv8n Pose Model
-- ✅ **Fighting Behavior Recognition** - Based on Arm Overlap Algorithm
-- ✅ **Visualization Interface** - Skeleton Display + Real-time Status
-- ✅ **Alert System** - Audio Alerts + Visual Warnings
-- ✅ **Performance Monitoring** - FPS Display + Statistics
+- ✅ **Real-time Human Pose Detection** - Powered by the YOLOv8n Pose Model
+- ✅ **Fighting Behavior Recognition** - Based on an Arm Overlap Algorithm
+- ✅ **Visualization Interface** -  Skeleton Rendering and Real-time Status Display
+- ✅ **Alert System** - Includes Audio Alerts and Visual Warnings
+- ✅ **Performance Monitoring** - FPS Counter and Live Statistics
 
 ### Detection Logic
 1. **Pose Extraction**: Detect 17 human keypoints
-2. **Interaction Analysis**: Calculate arm overlap between multiple people
-3. **Behavior Determination**: Trigger alert when threshold exceeded
-4. **Continuous Tracking**: 3-second alert duration
+2. **Interaction Analysis**: Calculate arm overlap among multiple people
+3. **Behavior Determination**: Trigger an alert when the threshold is exceeded
+4. **Continuous Tracking**: Maintain alert status for a duration of 3 seconds
 
 ---
 
@@ -34,8 +34,8 @@
 
 ### System Requirements
 - **Operating System**: Windows 10/11, macOS, Linux
-- **Python**: Version 3.8 or higher
-- **Hardware**: Computer with camera support
+- **Python Version**: 3.8 or higher
+- **Hardware**: Computer equipped with a camera
 
 ### Package Installation
 ```bash
@@ -47,7 +47,7 @@ pip install ultralytics opencv-python numpy pygame
 
 ## 🚀 Quick Start
 
-### 1. Download Project
+### 1. Download the Project
 [Download Here](https://github.com/slhs1121505/Fight_detection_system/releases/tag/Yogurt)
 
 ### 2. Install Dependencies
@@ -62,7 +62,7 @@ fight_detection_system.exe
 ```
 
 ### 4. Operation Commands
-- **`q`**: Exit system
+- **`q`**: Exit the system
 - **`r`**: Reset statistics
 
 ---
@@ -79,7 +79,7 @@ fight_detection_system.exe
 ## 🖥️ System Interface
 
 ### Main Display
-- **Live Video**: Camera feed + Skeleton overlay
+- **Live Video**: Camera feed and Skeleton overlay
 - **Status Bar**: Detection status, FPS, people count
 - **Alert Zone**: Red flashing alerts
 - **Statistics**: Runtime, total alert count
