@@ -162,9 +162,12 @@ self.overlap_threshold = 0.2     # 提高敏感度
 ## 📈 效能表現
 
 ### 測試環境
-- **CPU**: Intel i5-8400 / AMD Ryzen 5 3600
+- **CPU**: AMD Ryzen 5 3600
 - **RAM**: 8GB DDR4
-- **攝像頭**: 1080p @ 30fps
+- **攝像頭**: 720p @ 30fps
+
+### 效能
+- **FPS**: 6~7
 
 ---
 
