@@ -55,7 +55,7 @@ pip install ultralytics opencv-python numpy pygame
 
 ### 3. 執行系統
 ```bash
-python fight_detection_system.py
+開啟 fight_detection_system.exe
 ```
 
 ### 4. 操作指令
@@ -65,13 +65,6 @@ python fight_detection_system.py
 ---
 
 ## 📊 系統參數
-
-### 可調整參數
-```python
-confidence_threshold = 0.5    # 姿態偵測信心度
-overlap_threshold = 0.3       # 手臂重疊閾值
-alert_duration = 3.0          # 警報持續時間(秒)
-```
 
 ### 偵測條件
 - **距離閾值**: 手臂關鍵點距離 < 50 像素
@@ -117,42 +110,10 @@ YOLOv8n Pose → 姿態估計 → 特徵提取 → 行為分析 → 警報觸發
 
 ---
 
-## ⚙️ 進階設定
-
-### 攝像頭設定
-```python
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)   # 解析度寬度
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)   # 解析度高度
-cap.set(cv2.CAP_PROP_FPS, 30)             # 幀率設定
-```
-
-### 偵測敏感度調整
-```python
-# 提高敏感度 (更容易觸發)
-confidence_threshold = 0.3
-overlap_threshold = 0.2
-
-# 降低敏感度 (減少誤報)
-confidence_threshold = 0.7
-overlap_threshold = 0.5
-```
-
----
-
 ## 🐛 常見問題
 
 ### Q: 無法開啟攝像頭？
-**A**: 檢查攝像頭是否被其他程式佔用，或嘗試修改 `source` 參數：
-```python
-detector.run(source=1)  # 嘗試其他攝像頭
-```
-
-### Q: 偵測準確率不高？
-**A**: 調整信心度閾值或重疊參數：
-```python
-self.confidence_threshold = 0.3  # 降低閾值
-self.overlap_threshold = 0.2     # 提高敏感度
-```
+**A**: 檢查攝像頭是否被其他程式佔用。
 
 ### Q: 沒有警報聲音？
 **A**: 確認系統音量設定，或檢查 pygame 是否正確安裝。
@@ -215,8 +176,4 @@ self.overlap_threshold = 0.2     # 提高敏感度
 
 ---
 
-**README.md 由 Claude Sonnet 4 協助撰寫**
-
----
-
-*最後更新: 2025年6月15日*
+*README.md 由 Claude Sonnet 4 協助撰寫*
