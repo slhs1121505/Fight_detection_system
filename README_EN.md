@@ -177,4 +177,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*README_EN.md generated with assistance from Claude Sonnet 4*
+*README_EN.md generated with assistance from Claude Sonnet 4, modified by Yu-Ting Zhao*
