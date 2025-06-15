@@ -216,5 +216,8 @@ self.overlap_threshold = 0.2     # 提高敏感度
 
 ---
 
-*README.md 由 Claude Sonnet 4 協助撰寫*
+**README.md 由 Claude Sonnet 4 協助撰寫**
+
+---
+
 *最後更新: 2025年6月15日*
