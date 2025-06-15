@@ -6,7 +6,7 @@
 ---
 
 ## 📋 Project Information
-- **School**: Taipei Municipal Shilin Vocational High School of Commerce
+- **School**: Taipei Municipal Shilin High School of Commerce
 - **Type**: Vocational School Capstone Project
 - **Technology**: Computer Vision + Deep Learning
 - **Programming Language**: Python
