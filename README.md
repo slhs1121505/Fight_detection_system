@@ -46,10 +46,7 @@ pip install ultralytics opencv-python numpy pygame
 ## 🚀 快速開始
 
 ### 1. 下載專案
-```bash
-git clone https://github.com/yourusername/fight-detection-system.git
-cd fight-detection-system
-```
+[點我下載](https://github.com/slhs1121505/Fight_detection_system/releases/tag/Yogurt)
 
 ### 2. 安裝依賴
 ```bash
