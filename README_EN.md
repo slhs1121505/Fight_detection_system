@@ -138,8 +138,8 @@ YOLOv8n Pose → Pose Estimation → Feature Extraction → Behavior Analysis �
 ## 👥 Development Team
 
 ### Project Members
-- **Developer/Team Leader**: Tzu-Fu Chang
-- **Team Members**: Bu-Ting Chang, Yu-Ting Zhao
+- **Developer/Team Leader**: [Tzu-Fu Chang](https://github.com/slhs1121505)
+- **Team Members**: Bu-Ting Chang, [Yu-Ting Zhao](https://github.com/Inadilemma666)
 - **Supervisor**: Bi-Da Xu
 - **School**: Taipei Municipal Shilin Vocational High School of Commerce
 
