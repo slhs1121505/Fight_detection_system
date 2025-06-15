@@ -204,8 +204,7 @@ self.overlap_threshold = 0.2     # 提高敏感度
 
 ### 技術文件
 - [YOLOv8 官方文檔](https://docs.ultralytics.com/)
-- [OpenCV Python 教學](https://opencv-python-tutroals.readthedocs.io/)
-- [Pose Estimation 理論](https://learnopencv.com/human-pose-estimation-using-openpose-with-tensorflow/)
+- [OpenCV Python 教學](https://steam.oxxostudio.tw/category/python/ai/opencv-index.html)
 
 ### 學術論文
 - ["You Only Look Once: Unified, Real-Time Object Detection"](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf)
