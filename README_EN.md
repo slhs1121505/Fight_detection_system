@@ -1,7 +1,7 @@
 # 🥊 Fight Detection System
 **Real-time Fight Detection System Based on YOLO Pose Estimation**
 
-[中文版本](README_zh.md) | English Version
+[中文版本](README.md) | English Version
 
 ---
 
