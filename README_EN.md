@@ -17,7 +17,7 @@
 
 ### Core Functions
 - ✅ **Real-time Human Pose Detection** - Powered by the YOLOv8n Pose Model
-- ✅ **Fighting Behavior Recognition** - Based on an Arm Overlap Algorithm
+- ✅ **Fighting Behavior Recognition** - Based on the Arm Overlap Algorithm
 - ✅ **Visualization Interface** -  Skeleton Rendering and Real-time Status Display
 - ✅ **Alert System** - Includes Audio Alerts and Visual Warnings
 - ✅ **Performance Monitoring** - FPS Counter and Live Statistics
@@ -33,7 +33,7 @@
 ## 🛠️ Environment Requirements
 
 ### System Requirements
-- **Operating System**: Windows 10/11, macOS, Linux
+- **Operating System**: Windows 10 or 11, macOS, and Linux
 - **Python Version**: 3.8 or higher
 - **Hardware**: Computer equipped with a camera
 
@@ -70,19 +70,19 @@ fight_detection_system.exe
 ## 📊 System Parameters
 
 ### Detection Conditions
-- **Distance Threshold**: Arm keypoint distance < 50 pixels
-- **Overlap Count**: At least 2 keypoints overlapping
-- **Average Distance**: Arm average distance < 80 pixels
+- **Distance Threshold**: The distance between arm keypoints is less than 50 pixels
+- **Overlap Count**: At least two keypoints must overlap
+- **Average Distance**: The average distance between arm keypoints is less than 80 pixels
 
 ---
 
 ## 🖥️ System Interface
 
 ### Main Display
-- **Live Video**: Camera feed and Skeleton overlay
-- **Status Bar**: Detection status, FPS, people count
+- **Live Video**: Camera feed with Skeleton overlay
+- **Status Bar**: Detection status, FPS, and people count
 - **Alert Zone**: Red flashing alerts
-- **Statistics**: Runtime, total alert count
+- **Statistics**: Runtime and total alert count
 
 ### Visual Elements
 - 🟢 **Green Skeleton**: Normal status
@@ -103,23 +103,23 @@ YOLOv8n Pose → Pose Estimation → Feature Extraction → Behavior Analysis �
 2. **Pose Detection** → YOLO model inference
 3. **Feature Calculation** → Keypoint distance analysis
 4. **Behavior Determination** → Overlap assessment
-5. **Result Output** → Visualization + Alerts
+5. **Result Output** → Visualization and alerts
 
 ### Performance Optimization
-- Image scaling (640px width)
-- Buffer management (reduce latency)
+- Image scaling to 640 pixels (width)
+- Buffer management to reduce latency
 - Multi-threaded audio playback
-- Smooth FPS calculation
+- Smooth FPS (frames per second) calculation
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Q: Cannot open camera?
-**A**: Check if camera is being used by other applications.
+### Q: Cannot open the camera?
+**A**: Ensure that the camera is not being used by other applications.
 
 ### Q: No alert sound?
-**A**: Verify system volume settings or check if pygame is correctly installed.
+**A**: Check your system’s volume settings, and verify that pygame is correctly installed.
 
 ---
 
@@ -131,14 +131,14 @@ YOLOv8n Pose → Pose Estimation → Feature Extraction → Behavior Analysis �
 - **Camera**: 720p @ 30fps
 
 ### Performance Metrics
-- **FPS**: 6~7
+- **Frames Per Second (FPS)**: 6–7
 
 ---
 
 ## 👥 Development Team
 
 ### Project Members
-- **Developer/Team Leader**: [Tzu-Fu Chang](https://github.com/slhs1121505)
+- **Developer / Team Leader**: [Tzu-Fu Chang](https://github.com/slhs1121505)
 - **Team Members**: Bu-Ting Chang, [Yu-Ting Zhao](https://github.com/Inadilemma666)
 - **Supervisor**: Bi-Da Xu
 - **School**: Taipei Municipal Shilin Vocational High School of Commerce
@@ -150,15 +150,15 @@ YOLOv8n Pose → Pose Estimation → Feature Extraction → Behavior Analysis �
 ---
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - Please refer to the [LICENSE](LICENSE) file for full details.
 
 ---
 
 ## 🙏 Acknowledgments
-- **YOLOv8n**: Lightweight pose estimation model by Ultralytics team
+- **YOLOv8n**: Lightweight pose estimation model by the Ultralytics team
 - **OpenCV**: Powerful computer vision library
-- **Supervisor**: Professional guidance and advice
-- **Classmates**: Testing and feedback support
+- **Supervisor**: Professional guidance and valuable feedback
+- **Classmates**: Assistance with testing and evaluation
 
 ---
 
@@ -173,8 +173,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ If this project helps you, please give it a Star!**
+**⭐ If you found this project helpful, please consider giving it a ⭐ on GitHub!**
 
 ---
 
-*README_EN.md generated with assistance from Claude Sonnet 4, modified by Yu-Ting Zhao*
+*README_EN.md was generated with assistance from Claude Sonnet 4 and was subsequently further edited by Yu-Ting Zhao*
